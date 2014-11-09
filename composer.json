@@ -1,0 +1,27 @@
+{
+    "name": "opc/yii2-simple-html-dom",
+    "description": "Simple HTML DOM parser for Yii 2 framework.",
+    "keywords": ["dom", "php dom", "yii2", "parser"],
+    "homepage": "https://github.com/OpacumHub/yii2-simple-html-dom",
+    "version":"1",
+    "type": "library",
+    "require":{
+        "php":">=5.3.2"
+    },
+    "authors": [
+        {
+            "name": "S.C. Chen",
+            "email": "me578022@gmail.com",
+            "homepage": "http://simplehtmldom.sourceforge.net/"
+        },
+        {
+            "name": "Denis Opc",
+            "email": "opacum@ro.ru"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Parser\\SimpleHtmlDom": "lib/"
+        }
+    }
+}
